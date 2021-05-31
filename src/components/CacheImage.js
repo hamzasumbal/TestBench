@@ -46,11 +46,11 @@ const CacheImage = (props) => {
 
 
                 toDataURL(uri)
-                    .then(dataUrl => {
+                    .then(RemoteDataUri => {
                         toDataURL(image.uri)
-                            .then(dataUri => {
+                            .then(LocalDataUri => {
 
-                                if (dataUri === dataUrl) {
+                                if (LocalDataUri === RemoteDataUri) {
                                     console.log("The image are same")
                                     return;
                                 }
