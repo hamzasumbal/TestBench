@@ -6,7 +6,7 @@ import CTAButton from '../components/CTAButton';
 const CacheImageScreen = ({ navigation }) => {
 
 
-    const ImageURL = "https://images.unsplash.com/photo-1612151855475-877969f4a6cc?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8aGQlMjBpbWFnZXxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&w=1000&q=80"
+    const ImageURL = "https://www.shutterstock.com/blog/wp-content/uploads/sites/5/2018/03/1-24.jpg"
 
 
     return <View style={styles.container}>

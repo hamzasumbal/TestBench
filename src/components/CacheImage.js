@@ -1,6 +1,6 @@
 
 import React, { useEffect, useState } from 'react';
-import { Image } from 'react-native';
+import { Image, Platform } from 'react-native';
 import shorthash from 'shorthash';
 import * as FileSystem from 'expo-file-system';
 
@@ -50,7 +50,7 @@ const CacheImage = (props) => {
                         toDataURL(image.uri)
                             .then(LocalDataUri => {
 
-                                if (LocalDataUri === RemoteDataUri) {
+                                if (Platform.OS === "android"? LocalDataUri  === RemoteDataUri : LocalDataUri.slice(100,300) === RemoteDataUri.slice(86,286) ){
                                     console.log("The image are same")
                                     return;
                                 }
