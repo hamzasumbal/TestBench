@@ -10,6 +10,8 @@ const HomeScreen = ({navigation})=>{
         <CTAButton text = {"Cache Image"} onPress = {()=>navigation.navigate("CacheImage")} />
         <Spacer/>
         <CTAButton text = {"drawing board"} onPress = {()=>navigation.navigate("DrawingBoard")} />
+        <Spacer/>
+        <CTAButton text = {"notakto"} onPress = {()=>navigation.navigate("Notakto")} />
     </View>
 };
 

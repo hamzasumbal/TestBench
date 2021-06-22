@@ -24,7 +24,7 @@
     "react-native-screens": "^3.3.0",
     "react-native-signature-canvas": "^4.0.0",
     "react-native-web": "~0.13.12",
-    "react-native-webview": "^11.6.2",
+    "react-native-webview": "11.2.3",
     "shorthash": "0.0.2"
   },
   "devDependencies": {
