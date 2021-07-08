@@ -12,6 +12,8 @@ const HomeScreen = ({navigation})=>{
         <CTAButton text = {"drawing board"} onPress = {()=>navigation.navigate("DrawingBoard")} />
         <Spacer/>
         <CTAButton text = {"notakto"} onPress = {()=>navigation.navigate("Notakto")} />
+        <Spacer/>
+        <CTAButton text = {"camera"} onPress = {()=>navigation.navigate("Camera")} />
     </View>
 };
 
